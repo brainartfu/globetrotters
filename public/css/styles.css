@@ -1,0 +1,115 @@
+/* div {
+  border: 1px solid cyan;
+  padding: 5px;
+} */
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: #ddd;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #aaa;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #888;
+}
+
+.accordion .card:first-of-type {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.table td,
+.table th {
+    padding: 0.2rem;
+}
+
+.list-group-item {
+    padding: 0.5rem;
+}
+
+.card-header {
+    padding: 0;
+}
+
+.avatar-40 {
+    width: 40px;
+    height: 40px;
+}
+
+.sidebar-col {
+    width: 250px;
+}
+
+.card-header a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.address-popup {
+    position: absolute;
+    display: none;
+    background: white;
+    border-radius: 10px;
+    border: 1px solid lightgrey;
+}
+
+.address-list li {
+    padding: 5px 10px;
+}
+
+.address-list li:hover {
+    background: #ededed;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.comment-list .commited-comment .avatar {
+    background: #f7f7f7;
+    display: flex;
+    font-size: 20px;
+    font-weight: 600;
+    color: #4f92ff;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    flex-basis: 40px;
+    height: 40px;
+}
+
+.comment-list .commited-comment {
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    padding: 5px;
+    display: flex;
+    color: grey;
+}
+
+.open-send-form {
+    cursor: pointer;
+}
+
+.comment-list .commited-comment .content {
+    margin-left: 5px;
+    flex-shrink: 0;
+}
+
+.comment-list ul {
+    padding-left: 20px;
+}
+
+.comment-list ul li {
+    margin: 10px 0px;
+    padding: 10px;
+    font-size: 10px;
+    border: 1px solid lightgrey;
+}
+
+.fr-wrapper.show-placeholder {
+    display: none;
+}
